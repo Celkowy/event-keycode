@@ -26,6 +26,10 @@ body {
   font-size: 38px;
 }
 
+i {
+  border-bottom: 3px solid royalblue;
+}
+
 .wrapper {
   position: absolute;
   bottom: 17%;
@@ -37,26 +41,26 @@ body {
 }
 
 .flex {
-  border: 3px solid white;
+  border: 2px solid white;
+  border-radius: 5px;
   padding: 20px;
   width: 175px;
   position: relative;
   text-align: center;
   font-size: 28px;
-  border-radius: 10px;
-  transition: transform 0.5s;
-  cursor: default;
-  border-color: royalblue;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 .flex:hover {
-  transform: scale(1.3);
+  transform: translateY(-15%);
 }
 
 small {
   position: absolute;
-  top: -40px;
+  top: -45px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
+  border-bottom: 3px solid royalblue;
 }

@@ -48,12 +48,12 @@ i {
   position: relative;
   text-align: center;
   font-size: 28px;
-  transition: all 0.5s;
-  cursor: pointer;
+  transition: all 0.2s ease-in;
+  cursor: default;
 }
 
 .flex:hover {
-  transform: translateY(-15%);
+  transform: translateY(-20%);
 }
 
 small {

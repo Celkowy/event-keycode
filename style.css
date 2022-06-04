@@ -56,6 +56,11 @@ i {
   transform: translateY(-20%);
 }
 
+.event-code {
+  min-width: 175px;
+  width: auto;
+}
+
 small {
   position: absolute;
   top: -45px;

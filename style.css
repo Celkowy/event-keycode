@@ -56,7 +56,9 @@ i {
   transform: translateY(-20%);
 }
 
-.event-code {
+.event-code,
+.event-keyCode,
+.event-key {
   min-width: 175px;
   width: auto;
 }
